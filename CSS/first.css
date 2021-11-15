@@ -1,0 +1,58 @@
+h1{
+    color: rgb(201, 119, 81);
+    text-align: center;
+    font-style: italic;
+    font-variant: initial;
+    border-style:dotted;
+    border-spacing: 20px;
+    border-width: 3px 5px 3px 5px;
+    
+}
+/* body
+    {
+        /* background:url(G:/HTML&CSS/images/coffee.jpeg);
+        background-size: 100%;
+        background-repeat: repeat;
+        background-attachment:scroll;
+        background-position:unset; */
+    } */
+#demo{
+    color: lightcoral;
+}
+
+.p1{
+    color: maroon;
+}
+.tb{
+
+    background-image: url(G:/HTML&CSS/images/coffee.jpeg);
+    background-size: 70%;
+}
+
+h1:hover{
+            color: azure;
+        }
+a:link{
+    color: green;
+}
+a:visited{
+    color:yellow;
+}
+
+p{
+    color:palevioletred;
+    text-align: justify;
+    text-decoration:underline;
+   /* text-transform: uppercase;*/
+    font-family:cursive;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bolder;
+    font-variant:normal;
+    border: dashed black;
+    padding-left: 9px;
+    padding-bottom: 20px;
+    margin-right: 20%;
+    margin-left: 20%;
+
+}

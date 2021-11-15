@@ -1,0 +1,110 @@
+body{
+    color: wheat;
+    font-family: 'PT Sans', sans-serif;
+    background-color:rgb(177, 90, 58) ;
+    margin-left:  160px;
+    line-height: 1.6;
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+ .cf{
+
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(192, 126, 65);
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+ .cf a {
+    
+    padding: 6px 6px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #641c1c;
+    display: block;
+  }
+
+.cf a:hover{
+      color: wheat;
+  }
+  @media screen and (max-height: 450px) {
+    .cf {padding-top: 15px;}
+   .cf a {font-size: 18px;}
+  }
+#showcase{
+    margin-top:0;
+    padding: 0px;
+    background: url(coffee.jpeg) no-repeat center/cover ;
+    width: 100%;
+    height: 100vh; /*viewport height*/
+    position: relative;
+    overflow: hidden;
+    
+}
+
+#showcase .container{
+    margin-top: 25vh;
+}
+
+#showcase h1{
+    font-size: 4rem;/*root element font-size*/
+    margin-bottom: 0;
+   
+}
+#showcase h2{
+    font-size: 2rem;
+}
+#showcase .section-main{
+    color: rgb(245, 210, 146);
+}
+
+#showcase p{
+    color: rgb(225, 236, 63);
+    margin-top: 6rem;
+}
+
+
+
+.container{
+    max-width: 1180px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 3rem;
+}
+
+.lead{
+    font-size: 1.3rem;
+}
+
+footer .footer-cols{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3,1fr);
+    padding: 2rem;
+    text-align: left;
+    font-size: 14px;
+}
+
+footer .footer-cols ul{
+    list-style: none;
+}
+footer .footer-cols ul li:first-child{
+    font-size: 1.3rem;
+    padding-bottom: 0.5rem;
+    border-bottom: rgb(233, 143, 58) solid 2px;
+    margin-bottom: 1rem;
+}
+
+footer .footer-bottom{
+   
+    background-color: rgb(243, 207, 194);
+    text-align: center;
+    color: rgb(4, 10, 7);
+    
+}

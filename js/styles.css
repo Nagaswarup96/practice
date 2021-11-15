@@ -1,0 +1,13 @@
+:root{
+    --bgCol:rgb(187, 85, 85);
+}
+
+body{
+    background-color: var(--bgCol);
+    color: aliceblue;
+}
+
+label{
+   
+    font-size: 2rem;
+}

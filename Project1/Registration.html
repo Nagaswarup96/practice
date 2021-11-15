@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><i>User Registration</i></title>
+</head>
+<body style="background-color:rgb(168, 236, 179);">
+    <h1 style="text-align: center;">User Registration</h1>
+
+    <hr>
+
+    <form>
+
+<fieldset>
+<legend style="color: orangered;">REGISTRATION FORM</legend>
+    <!--User Name-->
+        <label for="Fname">First Name : </label>
+        <input type="text"id="Fname" placeholder="Firat Name" required><br><br>
+        <label for="Lname">Last Name : </label>
+        <input type="text" id="Lname" placeholder="Last Name" required><br><br>
+
+    <!--Gender-->
+        <label for="Gender">Gender  : </label>
+        <input type="radio" name="Gender" id="Male" >
+        <label for="Gender"> Male</label><br>
+    <div style="padding-left: 8ch;">
+        <input type="radio" name="Gender" id="Female">
+        <label for="Gender">Female</label><br>
+        <input type="radio" name="Gender" id="other">
+        <label for="Gender">other</label><br><br>
+    </div>
+
+    <!--Department Selection-->
+        <label for="Department"> Department :</label>
+        <select>
+            <option value="Department">Department</option>
+            <option value="IPS">IPS</option>
+            <option value="IAS">IAS</option>
+            <option value="IRS">IRS</option>
+        </select><br><br>
+
+    <!--Address-->
+        Address : 
+        <textarea name="Address" id="Current Address" cols="60" rows="6" required></textarea><br><br>
+        Phone : 
+        <input type="text" name="Country code" placeholder="Country Code" value="+91" size="3"required>
+        <input type="tel" name="Phone" size="25" pattern="[0-9]{4}-[0-9]{6}" placeholder="1234-567890" required><br><br>
+
+        <label for="Resume">Add your Resume</label>
+        <input type="file" name="myfile" id="myfile" required><br><br>
+
+        <label for="Email">Email ID : </label>
+        <input type="email" name="Email" id="Email" placeholder="ex:- abc@gmail.com" required><br><br>
+
+        <label for="Password">Password</label>
+        <input type="password" name="Password" id="Password" placeholder="Password" required><br><br>
+        <label for="Re-type Password">Re-type Password</label>
+        <input type="password" name="Re-type Password" id="Re-type Password" placeholder="Re-type Password" required><br><br>
+        <hr>
+    <div style="padding-left : 50%;">
+        <input type="button" value="SAVE & SUBMIT"  >
+    </div>
+
+</fieldset>
+    </form>
+</body>
+</html>
